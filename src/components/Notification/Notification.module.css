@@ -1,0 +1,13 @@
+.gif {
+  display: block;
+  border: none;
+  pointer-events: none;
+  background: none;
+}
+
+.title {
+  margin: 0;
+  text-shadow: aquamarine;
+  font-size: 26px;
+  font-style: italic;
+}

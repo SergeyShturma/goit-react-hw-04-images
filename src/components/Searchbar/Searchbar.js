@@ -15,7 +15,7 @@ export default function Searchbar({ onSubmit }) {
     e.preventDefault();
 
     if (searchData.trim() === '') {
-      toast('Введите запрос');
+      toast('Пустоту искать не очень интересно!');
       return;
     }
     onSubmit(searchData);
